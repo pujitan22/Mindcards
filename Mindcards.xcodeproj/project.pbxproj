@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB11AE62891737C00046890 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB11AE52891737C00046890 /* AddNoteView.swift */; };
+		DEB11AE82891791400046890 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB11AE72891791400046890 /* TagView.swift */; };
+		DEB11AEA289197B100046890 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB11AE9289197B100046890 /* NotesViewModel.swift */; };
+		DEBAB7CD288FABA000673561 /* MindcardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7CC288FABA000673561 /* MindcardsApp.swift */; };
+		DEBAB7CF288FABA000673561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7CE288FABA000673561 /* ContentView.swift */; };
+		DEBAB7D1288FABA100673561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7D0288FABA100673561 /* Assets.xcassets */; };
+		DEBAB7D4288FABA100673561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7D3288FABA100673561 /* Preview Assets.xcassets */; };
+		DEBAB7E1288FAC9000673561 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7E0288FAC9000673561 /* HomeView.swift */; };
+		DEBAB7E3288FACA300673561 /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7E2288FACA300673561 /* NewNoteView.swift */; };
+		DEBAB7E52890D01900673561 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7E42890D01900673561 /* TabBar.swift */; };
+		DEBAB7E72890DFFB00673561 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7E62890DFFB00673561 /* NoteModel.swift */; };
+		DEBAB7E92890EFA800673561 /* NoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7E82890EFA800673561 /* NoteCard.swift */; };
+		DEBAB7F42891091200673561 /* Givonic-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7ED2891091200673561 /* Givonic-SemiBold.ttf */; };
+		DEBAB7F52891091200673561 /* Givonic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7EE2891091200673561 /* Givonic-Light.ttf */; };
+		DEBAB7F62891091200673561 /* Givonic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7EF2891091200673561 /* Givonic-Bold.ttf */; };
+		DEBAB7F72891091200673561 /* Givonic Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7F02891091200673561 /* Givonic Variable.ttf */; };
+		DEBAB7F82891091200673561 /* Givonic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7F12891091200673561 /* Givonic-Regular.ttf */; };
+		DEBAB7F92891091200673561 /* Givonic-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7F22891091200673561 /* Givonic-Thin.ttf */; };
+		DEBAB7FA2891091200673561 /* Givonic-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBAB7F32891091200673561 /* Givonic-Black.ttf */; };
+		DEBAB7FD28910B1900673561 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7FC28910B1900673561 /* FontsManager.swift */; };
+		DEBAB7FF2891273300673561 /* NoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB7FE2891273300673561 /* NoteList.swift */; };
+		DEBAB8012891334500673561 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBAB8002891334500673561 /* NoteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEB11AE52891737C00046890 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		DEB11AE72891791400046890 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		DEB11AE9289197B100046890 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		DEBAB7C9288FABA000673561 /* Mindcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBAB7CC288FABA000673561 /* MindcardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindcardsApp.swift; sourceTree = "<group>"; };
+		DEBAB7CE288FABA000673561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEBAB7D0288FABA100673561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEBAB7D3288FABA100673561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEBAB7E0288FAC9000673561 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DEBAB7E2288FACA300673561 /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
+		DEBAB7E42890D01900673561 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		DEBAB7E62890DFFB00673561 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		DEBAB7E82890EFA800673561 /* NoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCard.swift; sourceTree = "<group>"; };
+		DEBAB7ED2891091200673561 /* Givonic-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-SemiBold.ttf"; sourceTree = "<group>"; };
+		DEBAB7EE2891091200673561 /* Givonic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-Light.ttf"; sourceTree = "<group>"; };
+		DEBAB7EF2891091200673561 /* Givonic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-Bold.ttf"; sourceTree = "<group>"; };
+		DEBAB7F02891091200673561 /* Givonic Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic Variable.ttf"; sourceTree = "<group>"; };
+		DEBAB7F12891091200673561 /* Givonic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-Regular.ttf"; sourceTree = "<group>"; };
+		DEBAB7F22891091200673561 /* Givonic-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-Thin.ttf"; sourceTree = "<group>"; };
+		DEBAB7F32891091200673561 /* Givonic-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Givonic-Black.ttf"; sourceTree = "<group>"; };
+		DEBAB7FB28910A7D00673561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEBAB7FC28910B1900673561 /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		DEBAB7FE2891273300673561 /* NoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteList.swift; sourceTree = "<group>"; };
+		DEBAB8002891334500673561 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEBAB7C6288FABA000673561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEBAB7C0288FABA000673561 = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7CB288FABA000673561 /* Mindcards */,
+				DEBAB7CA288FABA000673561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEBAB7CA288FABA000673561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7C9288FABA000673561 /* Mindcards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBAB7CB288FABA000673561 /* Mindcards */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7FB28910A7D00673561 /* Info.plist */,
+				DEBAB7EA2891086E00673561 /* Fonts */,
+				DEBAB7CC288FABA000673561 /* MindcardsApp.swift */,
+				DEBAB7DA288FABA500673561 /* Views */,
+				DEBAB7DC288FABB000673561 /* ViewModels */,
+				DEBAB7DD288FABCC00673561 /* Models */,
+				DEBAB7D0288FABA100673561 /* Assets.xcassets */,
+				DEBAB7D2288FABA100673561 /* Preview Content */,
+			);
+			path = Mindcards;
+			sourceTree = "<group>";
+		};
+		DEBAB7D2288FABA100673561 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7D3288FABA100673561 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEBAB7DA288FABA500673561 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7DE288FABF000673561 /* Main */,
+				DEBAB7DB288FABAA00673561 /* Detail */,
+				DEBAB7DF288FABF600673561 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEBAB7DB288FABAA00673561 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB8002891334500673561 /* NoteView.swift */,
+				DEB11AE52891737C00046890 /* AddNoteView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DEBAB7DC288FABB000673561 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DEB11AE9289197B100046890 /* NotesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DEBAB7DD288FABCC00673561 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7E62890DFFB00673561 /* NoteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEBAB7DE288FABF000673561 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7CE288FABA000673561 /* ContentView.swift */,
+				DEBAB7E42890D01900673561 /* TabBar.swift */,
+				DEBAB7E0288FAC9000673561 /* HomeView.swift */,
+				DEBAB7E2288FACA300673561 /* NewNoteView.swift */,
+				DEB11AE72891791400046890 /* TagView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DEBAB7DF288FABF600673561 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7E82890EFA800673561 /* NoteCard.swift */,
+				DEBAB7FE2891273300673561 /* NoteList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DEBAB7EA2891086E00673561 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DEBAB7F02891091200673561 /* Givonic Variable.ttf */,
+				DEBAB7F32891091200673561 /* Givonic-Black.ttf */,
+				DEBAB7EF2891091200673561 /* Givonic-Bold.ttf */,
+				DEBAB7EE2891091200673561 /* Givonic-Light.ttf */,
+				DEBAB7F12891091200673561 /* Givonic-Regular.ttf */,
+				DEBAB7ED2891091200673561 /* Givonic-SemiBold.ttf */,
+				DEBAB7F22891091200673561 /* Givonic-Thin.ttf */,
+				DEBAB7FC28910B1900673561 /* FontsManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEBAB7C8288FABA000673561 /* Mindcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEBAB7D7288FABA100673561 /* Build configuration list for PBXNativeTarget "Mindcards" */;
+			buildPhases = (
+				DEBAB7C5288FABA000673561 /* Sources */,
+				DEBAB7C6288FABA000673561 /* Frameworks */,
+				DEBAB7C7288FABA000673561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mindcards;
+			productName = Mindcards;
+			productReference = DEBAB7C9288FABA000673561 /* Mindcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEBAB7C1288FABA000673561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DEBAB7C8288FABA000673561 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DEBAB7C4288FABA000673561 /* Build configuration list for PBXProject "Mindcards" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEBAB7C0288FABA000673561;
+			productRefGroup = DEBAB7CA288FABA000673561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEBAB7C8288FABA000673561 /* Mindcards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEBAB7C7288FABA000673561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBAB7D4288FABA100673561 /* Preview Assets.xcassets in Resources */,
+				DEBAB7F72891091200673561 /* Givonic Variable.ttf in Resources */,
+				DEBAB7F52891091200673561 /* Givonic-Light.ttf in Resources */,
+				DEBAB7F92891091200673561 /* Givonic-Thin.ttf in Resources */,
+				DEBAB7F42891091200673561 /* Givonic-SemiBold.ttf in Resources */,
+				DEBAB7F62891091200673561 /* Givonic-Bold.ttf in Resources */,
+				DEBAB7F82891091200673561 /* Givonic-Regular.ttf in Resources */,
+				DEBAB7FA2891091200673561 /* Givonic-Black.ttf in Resources */,
+				DEBAB7D1288FABA100673561 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEBAB7C5288FABA000673561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBAB7E1288FAC9000673561 /* HomeView.swift in Sources */,
+				DEBAB7E72890DFFB00673561 /* NoteModel.swift in Sources */,
+				DEBAB7FF2891273300673561 /* NoteList.swift in Sources */,
+				DEB11AEA289197B100046890 /* NotesViewModel.swift in Sources */,
+				DEBAB7FD28910B1900673561 /* FontsManager.swift in Sources */,
+				DEBAB7CF288FABA000673561 /* ContentView.swift in Sources */,
+				DEBAB7CD288FABA000673561 /* MindcardsApp.swift in Sources */,
+				DEBAB8012891334500673561 /* NoteView.swift in Sources */,
+				DEBAB7E92890EFA800673561 /* NoteCard.swift in Sources */,
+				DEBAB7E3288FACA300673561 /* NewNoteView.swift in Sources */,
+				DEBAB7E52890D01900673561 /* TabBar.swift in Sources */,
+				DEB11AE62891737C00046890 /* AddNoteView.swift in Sources */,
+				DEB11AE82891791400046890 /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEBAB7D5288FABA100673561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEBAB7D6288FABA100673561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEBAB7D8288FABA100673561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mindcards/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F5PSBSY2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mindcards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PujitaTan.Mindcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEBAB7D9288FABA100673561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mindcards/Preview Content\"";
+				DEVELOPMENT_TEAM = 6F5PSBSY2N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mindcards/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PujitaTan.Mindcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEBAB7C4288FABA000673561 /* Build configuration list for PBXProject "Mindcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBAB7D5288FABA100673561 /* Debug */,
+				DEBAB7D6288FABA100673561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEBAB7D7288FABA100673561 /* Build configuration list for PBXNativeTarget "Mindcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEBAB7D8288FABA100673561 /* Debug */,
+				DEBAB7D9288FABA100673561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEBAB7C1288FABA000673561 /* Project object */;
+}
