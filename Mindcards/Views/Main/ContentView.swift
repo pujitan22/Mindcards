@@ -66,6 +66,16 @@ struct ContentView: View {
                     NavigationLink(destination: HomeView()) {
                             Label("Design Resources", systemImage: "folder")
                     }
+                    
+                    HStack (spacing: 178) {
+                        Text("Ideas")
+                            .font(.custom(FontsManager.Givonic.bold, size: 28))
+                        .foregroundColor(Color(red: 0.14118, green: 0.18431, blue: 0.60784))
+                        
+                        Image(systemName: "plus.square.fill")
+                            .foregroundColor(Color(red: 0.14118, green: 0.18431, blue: 0.60784))
+                            .padding(.leading, 0.0)
+                    }
                 }
                 
                 
