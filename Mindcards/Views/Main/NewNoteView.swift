@@ -18,9 +18,6 @@ struct NewNoteView: View {
             .navigationTitle("New Note")
         }
         .navigationViewStyle(.stack)
-        .sheet(isPresented: $showAddNote) {
-            AddNoteView()
-        }
     }
 }
 
