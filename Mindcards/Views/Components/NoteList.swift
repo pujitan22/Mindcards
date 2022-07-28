@@ -11,7 +11,7 @@ struct NoteList: View {
     var notes: [Note]
     var body: some View {
         VStack{
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 300), spacing: 25)], spacing: 50) {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 300), spacing: 10)], spacing: 50) {
                 ForEach(notes) { note in
                     NavigationLink(destination: NoteView(note: note)){
                         NoteCard(note: note)
@@ -22,7 +22,7 @@ struct NoteList: View {
             }
             .padding(.top)
         }
-        .padding(.horizontal, 260.0)
+        .padding(.horizontal, 60.0)
         
     }
 }

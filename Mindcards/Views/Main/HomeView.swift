@@ -12,19 +12,17 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             
-                
-                ScrollView{
-                    NoteList(notes: notesVM.notes)
-                }
-                
-                .navigationTitle("Resources")
-            
-            
-            
+            ScrollView{
+                NoteList(notes: notesVM.notes)
+            }
+            .navigationTitle("All Documents")
+            .background(Color(red: 0.92941, green: 0.93725, blue: 0.99608))
             
         }
+        
         .navigationViewStyle(.stack)
     }
+    
 }
 
 struct HomeView_Previews: PreviewProvider {

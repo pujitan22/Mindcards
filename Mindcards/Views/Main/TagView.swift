@@ -10,6 +10,7 @@ import SwiftUI
 struct TagView: View {
     @EnvironmentObject var notesVM: NotesViewModel
     var body: some View {
+        
         NavigationView {
             List {
                 ForEach(Tag.allCases) { tag in
@@ -17,6 +18,7 @@ struct TagView: View {
                         ScrollView {
                             NoteList(notes: notesVM.notes.filter{ $0.tag == tag.rawValue})
                         }
+                        
                         .navigationTitle(tag.rawValue)
                     } label: {
                         Text(tag.rawValue)
@@ -25,8 +27,12 @@ struct TagView: View {
                 }
             }
             .navigationTitle("Tags")
+            .background(Color(red: 0.92941, green: 0.93725, blue: 0.99608))
         }
         .navigationViewStyle(.stack)
+        
+        
+        
     }
 }
 
