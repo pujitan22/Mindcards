@@ -33,7 +33,7 @@ struct NoteCard: View {
                 .overlay(alignment: .bottom) {
                     Text(note.name)
                         .font(.custom(FontsManager.Givonic.black, size: 48))
-                        .foregroundColor(Color(red: 0.3, green: 0.3, blue: 0.3))
+                        .foregroundColor(Color(red: 0.5, green: 0.5, blue: 0.5))
                         .shadow(color: .black.opacity(0), radius: 5, x: 0, y: 0)
                         .frame(maxWidth: 280)
                         .padding()
@@ -42,7 +42,7 @@ struct NoteCard: View {
         }
         }
         .frame(width: 300, height: 400, alignment: .top)
-        .background(Color(red: 0.9, green: 0.9, blue: 0.9))
+        .background(.white)
         .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
         .shadow(color: .black.opacity(0.15), radius: 15, x: 0, y: 10)
         }

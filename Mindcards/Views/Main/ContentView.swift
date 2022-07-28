@@ -59,11 +59,11 @@ struct ContentView: View {
                             .padding(.leading)
                     }
                     
-                    NavigationLink(destination: TagView()) {
+                    NavigationLink(destination: HomeView()) {
                             Label("UX Resources", systemImage: "folder")
                     }
                     
-                    NavigationLink(destination: TagView()) {
+                    NavigationLink(destination: HomeView()) {
                             Label("Design Resources", systemImage: "folder")
                     }
                 }

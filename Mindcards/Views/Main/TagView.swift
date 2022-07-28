@@ -11,7 +11,7 @@ struct TagView: View {
     @EnvironmentObject var notesVM: NotesViewModel
     var body: some View {
         
-        NavigationView {
+       
             List {
                 ForEach(Tag.allCases) { tag in
                     NavigationLink {
@@ -28,7 +28,7 @@ struct TagView: View {
             }
             .navigationTitle("Tags")
             .background(Color(red: 0.92941, green: 0.93725, blue: 0.99608))
-        }
+        
         .navigationViewStyle(.stack)
         
         
